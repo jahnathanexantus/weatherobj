@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+		/>
+    <title>test3</title>
+</head>
+<body>
+    <div class="headerContainer">
+                <div class="navWrapperL">
+                    <div class="navl">
+                        <button id="rstBtn">Reset</button>
+                    </div>
+                </div>
+                <div class="navWrapperR">
+                    <div class="nav">                        
+				<input type="text" placeholder="ENTER CITY" id="citySearch" />
+				<button id="submitt-Btn" type="submit" fa fa-search class="citySearch ml-2">
+					click
+				</button>
+                    </div>       
+                </div>
+    </div>
+    <main>
+        <div class="containerBody">
+            <div class="todayWeather ">
+                <div class="today1Wrapper">
+                    <div class="cardHeader text-color:white" id="crntday">Date:</div>
+                    <div class="cardTBody">
+                        <h5 class="cardTitle">Today's weather</h5>
+                        <p id="tdyTemperature">temperature:</p>
+                        <p id="tdyWind">Wind:</p>
+                        <p id="tdyHumidity">Humidity:</p>
+                        <p id="tdtUv">Uv:</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container overflow-hidden text-center  cards">
+                <div class="row gy-5">
+                  <div class="col-6">
+                    <div class="weatherCards mb-3">
+                        <div class="cardsHeader">Day 1</div>
+                        <div class="cardBody">
+                            <h5 class="cardTitle">Weather forecast</h5>
+                            <p id="day1Temp">Temperature:</p>
+                            <p id="day1Wind">Wind:</p>
+                            <p id="day1Hum">Humidity:</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="weatherCards">
+                        <div class="cardsHeader">Day 2</div>
+                        <div class="cardBody">
+                            <h5 class="cardTitle">Weather forecast</h5>
+                            <p id="day2Temp">Temperature:</p>
+                            <p id="day2Wind">Wind:</p>
+                            <p id="day2Hum">Humidity:</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="weatherCards">
+                        <div class="cardsHeader">Day 3</div>
+                        <div class="cardBody">
+                            <h5 class="cardTitle">Weather forecast</h5>
+                            <p id="day3Temp">Temperature:</p>
+                            <p id="day3Wind">Wind:</p>
+                            <p id="day3Hum">Humidity:</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="weatherCards">
+                        <div class="cardsHeader">Day 4</div>
+                        <div class="cardBody">
+                            <h5 class="cardTitle">Weather forecast</h5>
+                            <p id="day4Temp">Temperature:</p>
+                            <p id="day4Wind">Wind:</p>
+                            <p id="day4Hum">Humidity:</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

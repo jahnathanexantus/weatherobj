@@ -1,0 +1,79 @@
+body{
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.headerContainer{
+    display: flex;
+    background-color: rgb(26, 22, 22);
+    height: 90px;
+    justify-content: space-between;
+   
+}
+
+.navWrapperR{
+    display: flex;
+    float: right;
+    padding-right:15px ;
+    align-items: center;
+    
+}
+
+.navWrapperL{
+    display: flex;
+    padding-left:15px;
+    align-items: center;
+}
+
+.containerBody{
+    display: flex;
+    margin-top: 20px;
+}
+
+.today1Wrapper{
+    
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 700px;
+    height: 400px;
+    margin: 20px;
+}
+.cardHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  black;
+    color:white
+}
+
+.cardTBody{
+    margin-left: 300px;
+}
+
+.cardWrapper {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    
+  }
+
+  .weatherCards{
+    border: 2px solid black;
+    width: 500px;
+  }
+
+  .secondRow{
+    display: flex;
+  }
+  
+
+  .cards{
+    margin-top: 20px;
+  }
+
+  .cardsHeader{
+    background-color: black;
+    color: white;
+  }
