@@ -2,14 +2,15 @@ body{
     box-sizing: 0;
     padding: 0;
     margin: 0;
+    background-image: linear-gradient( rgb(176, 175, 238) , rgb(168, 157, 157));
+
 }
 
 .headerContainer{
     display: flex;
-    background-color: rgb(26, 22, 22);
+    background-image: linear-gradient(to right, rgb(168, 157, 157) , rgb(176, 175, 238));
     height: 90px;
-    justify-content: space-between;
-   
+    justify-content: space-between;   
 }
 
 .navWrapperR{
@@ -39,6 +40,7 @@ body{
     width: 700px;
     height: 400px;
     margin: 20px;
+    
 }
 .cardHeader{
     display: flex;
@@ -56,6 +58,7 @@ body{
     display: flex;
     margin-bottom: 10px;
     justify-content: space-around;
+    
     
   }
 
@@ -77,3 +80,25 @@ body{
     background-color: black;
     color: white;
   }
+
+  #rstBtn{
+    border-radius: 10px;
+  }
+  
+  #citySearch{
+    border-radius: 10px;
+    
+  }
+
+  #centerPlace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .citySearch{
+    border-radius: 10px;
+  }
+  .center-placeholder::placeholder {
+    text-align: center;
+}
+

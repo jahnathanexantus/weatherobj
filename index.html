@@ -8,7 +8,7 @@
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
 		/>
-    <title>test3</title>
+    <title>weatherObj</title>
 </head>
 <body>
     <div class="headerContainer">
@@ -18,12 +18,12 @@
                     </div>
                 </div>
                 <div class="navWrapperR">
-                    <div class="nav">                        
-				<input type="text" placeholder="ENTER CITY" id="citySearch" />
-				<button id="submitt-Btn" type="submit" fa fa-search class="citySearch ml-2">
-					click
-				</button>
-                    </div>       
+                    <div class="nav">
+                        <input type="text" placeholder="ENTER CITY" id="citySearch" class="center-placeholder" />
+                        <button id="submitt-Btn" type="submit" fa fa-search class="citySearch ml-2">
+                            click
+                        </button>
+                    </div>
                 </div>
     </div>
     <main>
@@ -31,7 +31,7 @@
             <div class="todayWeather ">
                 <div class="today1Wrapper">
                     <div class="cardHeader text-color:white" id="crntday">Date:</div>
-                    <div class="cardTBody">
+                    <div class="cardTBody pt-3">
                         <h5 class="cardTitle">Today's weather</h5>
                         <p id="tdyTemperature">temperature:</p>
                         <p id="tdyWind">Wind:</p>
@@ -40,7 +40,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container overflow-hidden text-center  cards">
+            <div class="container overflow-hidden text-center  cards ">
                 <div class="row gy-5">
                   <div class="col-6">
                     <div class="weatherCards mb-3">
